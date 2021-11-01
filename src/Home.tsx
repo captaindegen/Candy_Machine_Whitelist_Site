@@ -54,6 +54,8 @@ const Home = (props: HomeProps) => {
     severity: undefined,
   });
 
+  console.log(setUrl);
+
   const [startDate, setStartDate] = useState(new Date(props.startDate));
 
   const wallet = useAnchorWallet();
