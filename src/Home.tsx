@@ -55,6 +55,8 @@ const Home = (props: HomeProps) => {
   });
 
   console.log(setUrl);
+  console.log(api_url);
+
 
   const [startDate, setStartDate] = useState(new Date(props.startDate));
 
